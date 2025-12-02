@@ -12,31 +12,33 @@ https://youtu.be/k1AsQf0tD3Y?si=Lyhbmp-32BSfwdMO
 
 # To maintain a clear and consistent development workflow :
 
-# Plan-wise code upload approach where I uploaded Plan-wise code files:
+# I uploaded Plan-wise code files :
 
-So I followed a plan-wise, incremental approach, uploading a new notebook after each stage of development.
+So I followed a plan-wise incremental approach and uploaded a new notebook after each stage of development.
 
-To make sure about regular commits, I first uploaded the initial code parts, then added new sections to the previous code parts and then merged them into the next plans.
+To make sure about the regular commits, I first uploaded the initial code parts, then added new sections to the previous code parts and then merged them into the next plans.
 
-This helped me to show consistent progress, as each plan contained all previous work plus the newly implemented features too.
+This helped me to show consistent progress as each plan contained all previous work plus the newly implemented features too.
 
 Finally, Plan 6 became the complete and ready-to-run project and it shows the full evolution of my work from start to finish.
 
+So, the Plan 6 code file is the full and final Medical Research Agent code file.
+
 # Features of this Project
 
-1. Prompting Framework- Uses multiple structured prompts for consistent medical reasoning.
+1. Prompting Framework- There are multiple structured prompts for consistent medical reasoning.
 
-2. Structured Output with Pydantic- Ensures clean, validated, schema-based medical information extraction.
+2. Structured Output with Pydantic- There is clean and validated schema-based medical information extraction.
 
-3. Semantic Search Integration- Fetches context using Tavily and Wikipedia queries.
+3. Semantic Search Integration- Fetches the context using Tavily and Wikipedia queries.
 
-4. Retrieval-Augmented Generation (RAG)- Uses retrieved medical evidence to answer accurately.
+4. Retrieval-Augmented Generation (RAG)- We can answer accurately using retrieved medical evidence.
 
 5. Tool Calling System- Invokes search tools and LLMs programmatically within workflow.
 
 6. LangGraph Workflow Architecture- Implements multi-node graphs with conditional routing logic.
 
-7. Medical Analyst Generation- Creates specialized analyst personas for deeper medical insights.
+7. Medical Analyst Generation- Specialized analyst personas are created for deeper medical insights.
 
 8. Automated Interview Engine- Generates multi-turn question-answer interviews dynamically.
 
@@ -44,13 +46,15 @@ Finally, Plan 6 became the complete and ready-to-run project and it shows the fu
 
 10. Structured Medical Report Writer- Creates well-organized medical sections with citations and clarity.
 
-11. Final Report Compilation System- Combines all sections into a complete and detailed medical document.
+11. Final Report Compilation System- All the sections are combined into a complete and detailed medical document.
 
-12. PDF Export of Final Report- The users get a ready-to-use PDF document as the output.
+12. PDF Export of Final Report- The users can get a ready-to-use PDF document as the output.
 
 # Reasons for Picking Up This Project
 
-1) On a personal level, I have often struggled to understand complex medical terms and it takes me time to search about that from various websites, so I thought that this project would help me with that.
+1) On a personal level, I have often struggled to understand complex medical terms and it takes me time to search about that from various websites.
+
+That's why, I thought that this project would help me.
 
 The medical text analysis requires deep reading, research and information organization, so this domain shows how the techniques learned in this course can be used to solve real-world problems that feel time-consuming and difficult.
 
@@ -130,7 +134,7 @@ LangGraph workflow integration (state, nodes, flow)
 
 PDF export, testing and final documentation
 
-# Screenshots of the Output Example Report of the Project
+# Screenshots of the Output Example Report (in PDF) of the Project
 
 1) <img width="579" height="759" alt="image" src="https://github.com/user-attachments/assets/97d2710e-73f7-4b4e-8c76-46f79e6d0482" />
 
@@ -139,6 +143,12 @@ PDF export, testing and final documentation
 3) <img width="532" height="804" alt="image" src="https://github.com/user-attachments/assets/ca892b77-e5e5-4853-a283-aa59a632b694" />
 
 4) <img width="539" height="360" alt="image" src="https://github.com/user-attachments/assets/65b65c89-0054-4036-b035-6abef91426d9" />
+
+# Agentic Workflow Architecture of this Project
+
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/6a1134f1-d62d-4345-bd33-191d55380c30" />
+
+So this image explains the end-to-end agentic workflow architecture of the Medical Research Agent.
 
 # Medical Disclaimer
 
