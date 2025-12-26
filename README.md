@@ -1,6 +1,6 @@
-# AI-Powered Medical Research Agent
+# AI Medical Research & Analysis Agent
 
-An AI-powered Medical Research Agent that turns complex medical text into clear insights. 
+An AI-powered Medical Research & Analysis Agent that turns complex medical text into clear insights. 
 
 It extracts symptoms, causes and treatments and gives accurate medical definitions using RAG.
 
